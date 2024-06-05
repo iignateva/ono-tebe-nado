@@ -1,1 +1,72 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr;
+  margin: 89px 24px 96px 24px;
+}
+
+.header__menu {
+  grid-column: 1/5;
+  margin-left: 23px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  list-style: circle;
+  color: #000;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header__links-list-item {
+  padding-left: 3px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active span {
+  border-bottom: none;
+}
+
+.header__logo {
+  grid-column: 5/7;
+  justify-self: start;
+  margin-left: 9px;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.35;
+  color: #000;
+}
+
+.header__address {
+  grid-column: 7/10;
+  justify-self: center;
+  align-self: start;
+  padding-left: 73px;
+  padding-top: 5px;
+}
+
+.header a,
+.address a {
+  text-decoration: none;
+}
+
+.header__link span,
+.address span {
+  border-bottom: 1px #000 solid;
+}
