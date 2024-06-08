@@ -17,7 +17,6 @@
   flex-direction: row;
   gap: 31px;
   list-style: circle;
-  color: #000;
   font-family: "Raleway";
   font-size: 18px;
   line-height: 21px;
@@ -27,7 +26,7 @@
   padding-left: 3px;
 }
 
-.header__links-list-item_no-bullit {
+.list-style-none {
   list-style: none;
 }
 
@@ -47,10 +46,8 @@
 }
 
 .address {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.35;
-  color: #000;
 }
 
 .header__address {
@@ -93,7 +90,7 @@
 .cover__title {
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
+  line-height: 1.15;
   text-transform: uppercase;
   color: #ffffff;
   padding: 165px 20px 127px 50px;
@@ -165,7 +162,6 @@
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
-  color: #000000;
   padding-left: 64px;
 }
 
@@ -174,7 +170,6 @@
   flex-wrap: wrap;
   margin: 26px 22px 0 23px;
   gap: 23px;
-  list-style: none;
 }
 
 .lots__card-list-item {
@@ -226,7 +221,7 @@
 .card__title {
   font-weight: 700;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 1.2;
   text-decoration-line: underline;
   text-transform: uppercase;
   color: #ffffff;
@@ -234,9 +229,8 @@
 }
 
 .card__text {
-  font-weight: 400;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   color: #ffffff;
   margin: 0 41px 47px;
   z-index: 2;
@@ -244,10 +238,8 @@
 
 .lots__look-more-link {
   display: block;
-  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #000000;
   margin: 31px 65px;
   text-decoration: none;
 }
@@ -287,7 +279,6 @@
   font-size: 40px;
   line-height: 47px;
   text-transform: uppercase;
-  color: #000000;
   grid-column: 2/4;
 }
 
@@ -296,10 +287,8 @@
   flex-direction: column;
   gap: 24px;
   grid-column: 2/4;
-  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
   margin: 8px 40px 0 11px;
 }
 
@@ -315,23 +304,17 @@
   align-self: flex-start;
 }
 
-.footer__menu-list {
-  list-style: none;
-}
-
 .footer__menu-list-item {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #000000;
 }
- 
+
 .footer__menu-link_active a {
   text-decoration: none;
 }
 
 .footer__social-list {
-  list-style: none;
   display: flex;
   flex-direction: row;
   align-self: start;
@@ -343,4 +326,3 @@
   width: 48px;
   height: 48px;
 }
- 
